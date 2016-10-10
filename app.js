@@ -1,0 +1,5 @@
+var questions = [new Question ("Who was the first President of the United States?", ["George Washington", "Thomas Jefferson"], "George Washington"),
+ new Question ("What is the answer to the Ultimate Question of life, Universe,and everything?", ["Pi", "42"], "42")
+];
+var quiz = new Quiz(questions);
+QuizUI.displayNext();
